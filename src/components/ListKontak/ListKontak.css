@@ -1,0 +1,49 @@
+.contact-list {
+	margin-top: 50px;
+	color: rgb(35, 35, 35);
+}
+
+.contact-list h3 {
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.contact-list .contact-card {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 30px;
+	padding: 10px 30px;
+	width: 300px;
+	border: none;
+	box-shadow: 0 0 16px rgb(35, 35, 35);
+	border-radius: 40px 0 40px 0;
+}
+
+.contact-list .contact-card .name,
+.contact-list .contact-card .phone {
+	font-size: 20px;
+	color: rgb(105, 104, 104);
+}
+
+.contact-list .contact-card .btn-delete,
+.contact-list .contact-card .btn-update {
+	font-size: 12px;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 6px;
+	border: none;
+	color: antiquewhite;
+}
+
+.contact-list .contact-card .btn-delete,
+.contact-list .contact-card .btn-update:hover {
+	cursor: pointer;
+}
+
+.contact-list .contact-card .btn-delete {
+	background-color: rgb(206, 10, 10);
+}
+
+.contact-list .contact-card .btn-update {
+	background-color: rgb(22, 22, 196);
+}

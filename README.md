@@ -12,7 +12,7 @@ An application used to manage your contact data built with React JS.
 
 ## Installation and Setup Instructions
 
-Clone [contact-app-server](https://github.com/mraf19/contact-app-server) adn install it for backend of this app
+Clone [contact-app-server](https://github.com/mraf19/contact-app-server) and install it for backend of this app
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 

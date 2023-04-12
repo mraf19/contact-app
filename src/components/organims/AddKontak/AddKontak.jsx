@@ -62,9 +62,10 @@ function AddKontak() {
           className="input-card"
           type="text"
           name="phoneNumber"
-          placeholder="Phone..."
+          placeholder="Phone Number..."
           value={nohp}
           onChange={(e) => setNohp(e.target.value)}
+          pattern="^[0-9]*$"
         />
         <button type="submit">{id ? "Update" : "Submit"}</button>
       </form>
